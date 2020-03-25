@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", helvetica, arial, sans;
+}
+
+.log-form {
+  width: 100%;
+  min-width: 320px;
+  max-width: 475px;
+  background: #fff;
+  position: justify;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(50%, 50%);
+  -moz-transform: translate(50%, 50%);
+  -o-transform: translate(50%, 50%);
+  -ms-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+h2 {
+  text-align: center;
+}
+.log-form {
+  padding: 2em;
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+/* ========================WRITE YOUR CSS FROM HERE======================== */
+.main-head{
+    height: 150px;
+    background: #FFF;
+    padding-bottom: 10px
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+    text-align: left;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
